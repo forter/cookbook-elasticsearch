@@ -17,3 +17,7 @@ default['elasticsearch']['download_urls'] = {
 default['elasticsearch']['checksums']['5.0.0']['debian'] = '0a4f8842a1f7d7bd3015118298284383efcd4c25f9591c46bb5ab68189815268'
 default['elasticsearch']['checksums']['5.0.0']['rhel'] = 'fb502a9754f2162f27590125aecc6b68fa999738051d8f230c4da4ed6deb8d62'
 default['elasticsearch']['checksums']['5.0.0']['tarball'] = 'a866534f0fa7428e980c985d712024feef1dee04709add6e360fc7b73bb1e7ae'
+
+
+# SearchGuard certificate directory
+default['elasticsearch']['cert_dir'] = '/etc/elasticsearch/certs'
